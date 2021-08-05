@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+}
+
+.logo{
+    margin-left: 100px;
+    margin-top: 20px;
+    flex: 2.8;
+}
+
+nav{
+    margin-top: 20px;
+    flex: 5.3;
+}
+
+.search{
+    margin-top: 20px;
+
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    margin-right: 35px;
+}
+
+.menu{
+    margin-top: 20px;
+}
+
+.ui{
+    display: flex;
+    margin-right: 130px;
+}
+
+.search{
+    margin-right: 30px;
+}
+
+
+.display h5{
+    position: absolute;
+    top: 32%;
+    left:10%;
+    font-weight: 300;
+    color: rgb(158, 157, 157);
+    font-size: 15px;
+}
+
+.display h1{
+    position: absolute;
+    top: 34%;
+    left: 10%;
+    font-weight: 500;
+    font-size: 50px;
+    z-index: 1;
+}
+
+.hpimg{
+    position: absolute;
+    height: 57vh;
+    right: 8%;
+    top: 15%;
+    z-index: 0;
+}
+
+.price{
+    position: absolute;
+    top: 55%;
+    left: 10.5%;
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.line{
+    position: absolute;
+    top: 54.9%;
+    left: 15.8%;
+    font-weight: 450;
+}
+
+.buy{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+    position: absolute;
+    top: 55%;
+    left: 18.5%;
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.arrows{
+    position: absolute;
+    top: 79%;
+    right: 27.5%;
+    font-size: 15px;
+    font-weight: 450;
+    display: flex;
+}
+
+.line2{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.arrow{
+    margin-right: 30px;
+    margin-left:30px ;
+}
+
+.fa-arrow-right{
+    color:darkorchid;
+}
+
+.features{
+    background-color: rgb(245, 243, 243);
+    height: 52vh;
+    position: absolute;
+    top: 95%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.overview{
+    margin-top: 25px;
+    margin-left: 180px;
+    margin-bottom: 80px;
+    margin-right: 10px;
+}
+
+.comfortable{
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-bottom: 80px;
+}
+
+.highlights{
+    margin-right: 20px;
+    margin-bottom: 80px;
+    margin-left: 250px;
+}
+
+.battery{
+    margin-left: 180px;
+    margin-bottom: 80px;
+    margin-right: 10px;
+}
+
+.features p{
+    font-weight: 300;
+}
+
+.comfortable h2 {
+    margin-bottom:13px;
+}
+
+.overview h2 {
+    margin-bottom:13px;
+}
+
+.battery h2 {
+    margin-bottom:13px;
+}
+
+.highlights h2 {
+    margin-bottom:13px;
+}
+
+
+.imm{
+    top: 150%;
+    position: absolute;
+    left: 15%;
+    z-index: 0;
+    height: 57vh;
+    margin-top:30px;
+}
+
+.immerse h1{
+    top: 160%;
+    position: absolute;
+    left: 55%;
+    font-weight: 400;
+}
+
+.price2{
+    top: 175%;
+    position: absolute;
+    left: 55%;
+}
+
+.color{
+    top: 175%;
+    position: absolute;
+    left: 59%;
+}
+
+.red{
+    cursor:pointer;
+    background-color: red;
+    top: 174.5%;
+    position: absolute;
+    left: 68%;
+    height: 3vh;
+    width: 3vh;
+    border-radius: 50%;
+    border: none;
+}
+
+.blue{
+    cursor:pointer;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: rgb(48, 48, 206);
+    top: 174.5%;
+    position: absolute;
+    left: 66%;
+    height: 3vh;
+    width: 3vh;
+    border-radius: 50%;
+}
+
+.white{
+    cursor:pointer;
+    background-color: black;
+    border: none;
+    top: 174.5%;
+    position: absolute;
+    left: 64%;
+    height: 3vh;
+    width: 3vh;
+    border-radius: 50%;
+}
+
+.immerse p{
+    top: 183%;
+    position: absolute;
+    left: 55%;
+}
+
+.buy2{
+    top: 196%;
+    position: absolute;
+    left: 55%;
+    border: 2px solid magenta;
+    border-radius: 50px 50px 50px 50px;
+    height: 6vh;
+    width: 15vh;
+    background-color: transparent;
+    color: magenta;
+    transition-duration: 0.3ms;
+}
+
+.buy2:hover{
+    background-color: magenta;
+    color: whitesmoke;
+}
